@@ -1,0 +1,33 @@
+{
+  "name": "text-animation",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://tljafar.github.io/text-animation",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist",
+    "publish": "vite build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dom-vcr": "^0.3.3",
+    "gh-pages": "^5.0.0",
+    "html2canvas": "^1.4.1",
+    "modern-gif": "^0.1.1",
+    "mp4box": "^0.5.2",
+    "openai": "^3.2.1",
+    "papaparse": "^5.3.2",
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4",
+    "vite": "^4.2.0"
+  }
+}
